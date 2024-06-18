@@ -1,0 +1,127 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    margin-top: 20px;
+    margin-inline: 10px;
+}
+
+nav img{
+    height: 50px;
+    margin-inline: 30px;
+}
+
+nav img:hover{
+    cursor: pointer;
+}
+
+nav ul{
+    text-align: center;
+    margin-top: -30px;
+    margin-inline: 180px;
+}
+
+nav ul li{
+    font-size: 18px;
+    display: inline;
+    margin-inline: 10px;
+    font-weight: bold;
+}
+
+nav ul>li:hover{
+    cursor: pointer;
+    color: chocolate;
+}
+
+nav div{
+    display: inline;
+    margin-top: -20px;
+    font-weight: bold;
+}
+
+nav div> div{
+    margin-inline-end: -50%;
+}
+
+nav div p{
+    display: inline;
+}
+
+nav div img{
+    height: 28px;
+    width: 33px;
+    border-radius: 50%;
+}
+
+#country{
+    border: thin solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+#country img{
+    margin-bottom: -10px;
+}
+
+#section-1{
+    margin-top: 40px;
+}
+
+#section-1 #text{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.banner p{
+    font-size: 40px;
+    display: inline;
+    padding: 5px;
+}
+
+.banner > #text-1{
+    color: rgb(238, 78, 4);
+}
+
+.banner > #text-2{
+    color: rgb(3, 78, 14);
+}
+
+.banner > #text-3{
+    color: rgb(7, 164, 192);
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.images img{
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.images div p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.images div p{
+    height: 60px;
+    margin-top: -10px;
+    background-color: rgba(235, 93, 11, 0.836);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 999px;
+}
+
+.images div p:hover{
+    cursor: pointer;
+    text-decoration: aliceblue underline;
+}
