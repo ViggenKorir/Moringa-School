@@ -1,2 +1,3 @@
-**Clone Version of:**
-***Moringa School Website***
+## Clone Version of:
+# Moringa School Website
+
