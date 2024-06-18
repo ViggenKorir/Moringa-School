@@ -1,5 +1,5 @@
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav{
@@ -78,6 +78,7 @@ nav div img{
     font-size: 40px;
     display: inline;
     padding: 5px;
+    font-weight: bold;
 }
 
 .banner > #text-1{
@@ -114,14 +115,55 @@ nav div img{
 
 .images div p{
     height: 60px;
+    color: aliceblue;
     margin-top: -10px;
-    background-color: rgba(235, 93, 11, 0.836);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     z-index: 999px;
 }
 
-.images div p:hover{
+#div-1 p{
+    background-color: rgba(235, 93, 11, 0.836);
+}
+
+#div-2 p{
+    background-color: rgba(8, 160, 206, 0.836);
+}
+
+#div-3 p{
+    background-color: rgba(18, 85, 2, 0.836);
+}
+
+#div-4 p{
+    background-color: rgba(0, 67, 99, 0.836);
+}
+
+footer{
+    background-color: rgb(8, 68, 117);
+    margin-left: 0%;
+}
+
+footer img{
+    height: 50px;
+    margin-inline: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-text{
+
+    color: aliceblue;
+    font-size: 22px;
+    bottom: 20px;
+    text-indent: 30px;
+}
+
+.footer-text li{
+    list-style: none;
+    margin-top: 15px;
+}
+
+.footer-text li:hover{
     cursor: pointer;
     text-decoration: aliceblue underline;
 }
